@@ -48,7 +48,7 @@ body > *{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #313135;
+    background: #323233;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -93,7 +93,7 @@ body > *{
 .btn-login{
     width: 30%;
     padding: 16px 0px;
-    margin: 19px;
+    margin: 10px;
     border: none;
     border-radius: 9999px;
     text-transform: uppercase;
@@ -109,16 +109,31 @@ body > *{
     transform: scale(1.05);
 }
 
+.cadastro p{
+    color: #fff;
+}
 
-@media only screen and (max-widht: 950px){
+.cadastro a{
+    color: #757474;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.cadastro a:hover{
+    color: #000000;
+    transform: scale(1.10);
+}
+
+
+@media only screen and (max-width: 950px){
     .card-login{
         width: 85%;
     }
 }
 
 
-@media only screen and (max-widht: 600px){
-    .mmain-login{
+@media only screen and (max-width: 600px){
+    .main-login{
         flex-direction: column;
     }
 
