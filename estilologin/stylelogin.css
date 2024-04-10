@@ -120,6 +120,7 @@ body > *{
 @media only screen and (max-widht: 600px){
     .mmain-login{
         flex-direction: column;
+        display: grid;
     }
 
     .left-login > h1{
