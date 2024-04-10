@@ -99,13 +99,13 @@ body > *{
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    background: #1eff00;
+    background: #44bf33;
     cursor: pointer;
     transition: .2s;
 }
 
 .btn-login:hover{
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #44bf33;
     transform: scale(1.05);
 }
 
