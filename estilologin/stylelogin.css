@@ -99,7 +99,7 @@ body > *{
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    background: #44bf33;
+    background-color: #44bf33;
     cursor: pointer;
     transition: .2s;
 }
