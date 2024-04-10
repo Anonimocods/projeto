@@ -104,37 +104,22 @@ body > *{
     transition: .2s;
 }
 
-.cadastro > p{
-    color: #fff;
-}
-
-.cadastro p a{
-    color: #fff;
-    transition: .2s;
-    text-decoration: none;
-}
-
-.cadastro a:hover{
-    text-decoration: underline;
-    color: #6b6969;
-}
-
 .btn-login:hover{
     box-shadow: 0px 0px 8px #44bf33;
     transform: scale(1.05);
 }
 
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-widht: 950px){
     .card-login{
         width: 85%;
     }
 }
 
 
-@media only screen and (max-width: 800px){
-    .main-login{
-       flex-direction: column;
+@media only screen and (max-widht: 600px){
+    .mmain-login{
+        flex-direction: column;
     }
 
     .left-login > h1{
@@ -157,15 +142,5 @@ body > *{
 
     .card-login{
         width: 90%;
-    }
-}
-
-@media only screen and (max-width: 799px){
-    .right-login{
-        width: 70%;
-    }
-
-    .btn-login{
-        width: 50%;
     }
 }
