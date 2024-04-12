@@ -12,23 +12,25 @@
             <h1>Faça o Login <br>E entre para o nosso time</h1>
             <img src="./imagens/software-tester-animate (1).svg" class="left-login-image" alt="">
         </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
-                </div>
-                <button class="btn-login">entrar</button>
-                <div class="cadastro">
-                    <p>Não tem cadastro ainda? <a href="cadastro_de_clientes.html">Cadastre Aqui</a></p>
+        <form action="php/autentication.php" method="post">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="textfield">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="E-Mail">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+                    <button class="btn-login">entrar</button>
+                    <div class="cadastro">
+                        <p>Não tem cadastro ainda? <a href="cad_usuario.html">Cadastre Aqui</a></p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </body>
 </html>

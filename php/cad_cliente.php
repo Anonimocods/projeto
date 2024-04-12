@@ -12,7 +12,7 @@ $cnpj = filter_input(INPUT_POST, 'cnpj', FILTER_SANITIZE_STRING);
 $gender = filter_input(INPUT_POST, 'gender', FILTER_SANITIZE_STRING);
 
 if ($password !== $confirmPassword) {
-    echo "Eu sei oque está tentando fazer.";
+    echo "<script> alert('Eu sei o que você está tentando fazer.'); window.location.href = 'cad_usuario.html'; </script>";
     exit;
 }
 
@@ -25,5 +25,6 @@ try {
     exit;
 } catch (mysqli_sql_exception $e) {
     echo "" . $e->getMessage() . "";
+    header("Location: cadastro_de_clientes.html");
 }
 

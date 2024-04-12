@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilologin/stylelogin.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Cadastre-se sua Empresa</h1>
+            <img src="./imagens/software-tester-animate (1).svg" class="left-login-image" alt="">
+        </div>
+        
+        <form id="usu" action="php/cad_usu.php" method="post">
+            <div class="right-login">
+                <div class="card-login">
+
+                    <div class="textfield">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Informe seu nome">
+                    </div>
+
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+
+                    <div class="textfield">
+                        <label for="email">E-Mail</label>
+                        <input type="text" name="email" placeholder="E-Mail">
+                    </div>
+
+                    <div class="textfield">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" name="empresa" placeholder="Empresa">
+                    </div>
+
+                    <button class="btn-login">Cadastrar</button>
+                    <div class="cadastro">
+                        <p>Já tem cadastro? <a href="index.html">Fazer login</a></p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
