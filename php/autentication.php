@@ -19,6 +19,7 @@ if(mysqli_num_rows($result) != 0) {
    exit;
     }else{
         $_SESSION['msg'] = "Desculpe, Dados Incompativeis, Tente Novamente."; 
+        echo "<script> alert('Desculpe, Dados Incompativeis, Tente Novamente.'); window.location.href = '../index.html'; </script>";
     }
 }else{
 echo "<script> alert('Desculpe, Dados Incompativeis, Tente Novamente.'); window.location.href = '../index.html'; </script>";
