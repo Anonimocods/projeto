@@ -95,3 +95,16 @@ body{
 .navegacao ul li:nth-child(4).ativo ~ .indicador{
     transform: translateX(calc(70px * 3));
 }
+
+@media screen and (max-width:950px){
+    .navegacao{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navegacao ul{
+        width: 280px;
+        display: flex;
+    }
+}
